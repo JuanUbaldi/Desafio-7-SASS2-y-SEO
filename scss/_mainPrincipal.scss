@@ -1,0 +1,25 @@
+.main1{
+    h2{
+     margin-top: 30px;
+     padding-top: 30px;
+     padding-bottom: 30px;
+     text-align: center;
+    } 
+     .texto{
+         font-weight: bolder;
+         .texto1{
+             text-align: center;
+         }
+         .TEXTO{ 
+           @include flex;
+ 
+             .texto2{
+                 background-color: rgb(230, 128, 145); }
+                 .texto3{
+                     background-color:rgb(215, 181, 187);}
+                     .texto4{
+                         background-color: rgb(195, 145, 162);
+                     }
+                    }
+                  }
+                }

@@ -1,0 +1,22 @@
+footer{
+    margin: 50px 50px;
+    padding: 30px 30px;
+    .contacto{
+         text-align: center;
+        h3{
+           font-weight: bolder;
+         }  
+        }
+    .listaR{
+       list-style: none;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+     img{
+           width: 50px;
+           height: 50px;
+           padding: 5px;
+       }
+    }
+}
+

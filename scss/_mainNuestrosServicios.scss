@@ -1,0 +1,56 @@
+.Main4 {
+    h2{
+   padding: 10px;
+   margin: 10px;
+   color: brown;
+   font-weight: bolder;
+ }
+   p{
+       padding: 10px;
+       margin: 10px;
+   }
+.hacemos{
+       margin: 30px;
+       padding: 30px;
+       @include flex;}
+       .Baño{
+           margin: 30px;
+           padding: 30px;
+   @include flex;
+       }
+        h3{
+           text-align: center;}
+           .img1{
+                   width: 200px;
+                   height: 200px;
+               }
+               .img2{
+                   width: 200px;
+                   height: 200px;
+               }
+               .img3{
+                   width: 200px;
+                   height: 200px;
+               }
+               .img4{
+                   width: 200px;
+                   height: 200px;
+               }
+               .img{
+                  @include flex;
+               }
+               .paseos{
+                   margin: 50px;
+                   padding: 50px;
+
+               }
+               .fotoPago{
+                   display: flex;
+                   flex-direction: row;
+                   img{
+                       width: 100px;
+                       height: 70px;
+                   }
+               }
+           }
+               

@@ -1,0 +1,23 @@
+.cabecera{
+    background-image: url(../fotos/fondo.jpg);
+    height: 150px;
+    padding: 30px;
+    h1{
+        color: brown;
+        text-align: center;
+        font-weight: bold;
+     }
+        .lista{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            li{
+                list-style: none;
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-weight: bold;
+                }
+            }
+        }
+    }

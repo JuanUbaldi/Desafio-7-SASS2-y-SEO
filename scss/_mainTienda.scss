@@ -1,0 +1,72 @@
+.Main5{ 
+    .ropa{
+h2{
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+}
+
+    .listaRopa{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;} 
+    a{
+        text-decoration: none;
+    }    
+ } 
+     .bolsitos{
+            h2{
+                text-align: center;
+                padding: 30px;
+                margin: 30px;
+            }
+            .listaBolsitos{
+                list-style-type: none;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+            a{
+                text-decoration: none;
+            }
+          }
+     .correas{
+        h2{
+            text-align: center;
+            padding: 30px;
+            margin: 30px;
+        }
+        .listaCorreas{
+             list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        } 
+        a{
+            text-decoration: none;
+        }
+    }
+}
+        .btn{
+            width:200px;
+            text-align: center ;
+            padding: 5px 0;
+            margin: 2px auto;
+            color: black;
+                     .btn_comprar {
+                        @extend .btn;
+                        background-color: rgb(148, 84, 94);
+                     }
+                     .btn_sacar {
+                        @extend .btn;
+                        background-color: rgb(134, 53, 66);
+                     }
+                     .btn_sumar {
+                        @extend .btn;
+                        background-color: rgb(134, 53, 66);
+                     }
+        }
+      
+ 
+        

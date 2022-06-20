@@ -1,0 +1,242 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border border-box; }
+
+.cuerpo {
+  background-color: antiquewhite;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Macondo', cursive;
+  font-family: 'Roboto', sans-serif; }
+
+.cabecera {
+  background-image: url(../fotos/fondo.jpg);
+  height: 150px;
+  padding: 30px; }
+  .cabecera h1 {
+    color: brown;
+    text-align: center;
+    font-weight: bold; }
+  .cabecera .lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .cabecera .lista li {
+      list-style: none; }
+      .cabecera .lista li a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold; }
+
+.main1 h2 {
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center; }
+
+.main1 .texto {
+  font-weight: bolder; }
+  .main1 .texto .texto1 {
+    text-align: center; }
+  .main1 .texto .TEXTO {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .main1 .texto .TEXTO .texto2 {
+      background-color: #e68091; }
+    .main1 .texto .TEXTO .texto3 {
+      background-color: #d7b5bb; }
+    .main1 .texto .TEXTO .texto4 {
+      background-color: #c391a2; }
+
+.Main2 form {
+  margin: auto;
+  border: solid pink 5px;
+  width: 30%; }
+
+.Main3 {
+  display: flex;
+  flex-direction: row; }
+  .Main3 .textoSobre {
+    padding: 20px;
+    margin: 20px; }
+
+.Main4 h2 {
+  padding: 10px;
+  margin: 10px;
+  color: brown;
+  font-weight: bolder; }
+
+.Main4 p {
+  padding: 10px;
+  margin: 10px; }
+
+.Main4 .hacemos {
+  margin: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.Main4 .Baño {
+  margin: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.Main4 h3 {
+  text-align: center; }
+
+.Main4 .img1 {
+  width: 200px;
+  height: 200px; }
+
+.Main4 .img2 {
+  width: 200px;
+  height: 200px; }
+
+.Main4 .img3 {
+  width: 200px;
+  height: 200px; }
+
+.Main4 .img4 {
+  width: 200px;
+  height: 200px; }
+
+.Main4 .img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.Main4 .paseos {
+  margin: 50px;
+  padding: 50px; }
+
+.Main4 .fotoPago {
+  display: flex;
+  flex-direction: row; }
+  .Main4 .fotoPago img {
+    width: 100px;
+    height: 70px; }
+
+.Main5 .ropa h2 {
+  text-align: center;
+  padding: 30px;
+  margin: 30px; }
+
+.Main5 .ropa .listaRopa {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.Main5 .ropa a {
+  text-decoration: none; }
+
+.Main5 .bolsitos h2 {
+  text-align: center;
+  padding: 30px;
+  margin: 30px; }
+
+.Main5 .bolsitos .listaBolsitos {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.Main5 .bolsitos a {
+  text-decoration: none; }
+
+.Main5 .correas h2 {
+  text-align: center;
+  padding: 30px;
+  margin: 30px; }
+
+.Main5 .correas .listaCorreas {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.Main5 .correas a {
+  text-decoration: none; }
+
+.btn, .btn .btn_comprar, .btn .btn_sacar, .btn .btn_sumar {
+  width: 200px;
+  text-align: center;
+  padding: 5px 0;
+  margin: 2px auto;
+  color: black; }
+  .btn .btn_comprar {
+    background-color: #94545e; }
+  .btn .btn_sacar {
+    background-color: #863542; }
+  .btn .btn_sumar {
+    background-color: #863542; }
+
+footer {
+  margin: 50px 50px;
+  padding: 30px 30px; }
+  footer .contacto {
+    text-align: center; }
+    footer .contacto h3 {
+      font-weight: bolder; }
+  footer .listaR {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    footer .listaR img {
+      width: 50px;
+      height: 50px;
+      padding: 5px; }
+
+@media screen and (max-width: 480px) and (min-width: 1px) {
+  .cabecera {
+    height: 100%;
+    width: 100%; }
+    .cabecera h1 {
+      text-align: center; }
+    .cabecera .lista {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+  .main1 h2 {
+    text-align: center;
+    padding-top: 30px; }
+  .main1 .TEXTO {
+    display: flex;
+    flex-direction: column; }
+  .Main2 {
+    margin: auto; }
+    .Main2 form {
+      padding: auto;
+      width: 90%; }
+  .Main3 {
+    display: flex;
+    flex-direction: column; }
+    .Main3 .textoSobre {
+      padding: 20px;
+      margin: 20px; }
+  .Main4 .hacemos {
+    display: flex;
+    flex-direction: column; }
+  .Main4 .Baño {
+    display: flex;
+    flex-direction: column; }
+  .Main4 h3 {
+    text-align: center; }
+  .Main4 .img {
+    display: flex;
+    flex-direction: column; }
+  .Main5 .listaRopa {
+    display: flex;
+    flex-direction: column; }
+  .Main5 .listaBolsitos {
+    display: flex;
+    flex-direction: column; }
+  .Main5 .listaCorreas {
+    display: flex;
+    flex-direction: column; } }

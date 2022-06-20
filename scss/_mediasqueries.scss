@@ -1,0 +1,88 @@
+@media screen  and (max-width: 480px)and (min-width: 1px) {
+    .cabecera{
+     height: 100%;
+     width: 100%;
+     h1{
+ text-align: center;
+     }
+     .lista{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         }
+      }
+   
+ 
+   .main1{
+     h2{
+         text-align: center;
+         padding-top: 30px;
+     }
+     .TEXTO{
+         display: flex;
+         flex-direction: column;
+     }
+    }
+     
+     .Main2{ margin: auto;
+       
+        form{    
+                padding: auto;
+                
+                 width: 90%;
+            }
+        }
+        
+        
+     .Main3{
+         display: flex;
+         flex-direction: column;
+         .textoSobre{
+             padding: 20px;
+             margin: 20px;
+         }
+       }
+       .Main4{
+         .hacemos{
+      
+         display: flex;
+         flex-direction: column;
+        }
+         .Baño{
+             
+             display: flex;
+             flex-direction: column;
+            
+         }
+          h3{
+             text-align: center;}
+            
+                 .img{
+                     display: flex;
+                     flex-direction: column;
+                   
+                 }
+                
+                 }
+             .Main5{
+                 .listaRopa{
+                     
+                     display: flex;
+                     flex-direction:column;
+                     } 
+                         .listaBolsitos{
+                             
+                             display: flex;
+                             flex-direction: column;
+                           
+                         }
+                      
+                     .listaCorreas{
+                         display: flex;
+                         flex-direction: column;
+                         
+                     } 
+                    
+                 }
+             }
+     

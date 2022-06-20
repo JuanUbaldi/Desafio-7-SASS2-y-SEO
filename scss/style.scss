@@ -1,0 +1,24 @@
+$pinkD:rgb(230, 128, 145);
+$pinkC:rgb(215, 181, 187);
+$pinky: rgb(195, 145, 162);
+
+@import "./body";
+@import "./cabecera";
+@import "./mainPrincipal";
+@import "./mainContactanos";
+@import "./mainSobreNosotros";
+@import "./mainNuestrosServicios";
+@import "./mainTienda";
+@import "./footer";
+@import "./mediasqueries";
+
+@mixin flex (){
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+  
+
+ 
